@@ -37,7 +37,7 @@ private:
 // the private member _currentPhase which can take „red“ or „green“ as its
 // value.
 
-class TrafficLight {
+class TrafficLight : public TrafficObject {
 public:
   TrafficLight();
 
